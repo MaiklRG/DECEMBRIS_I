@@ -4,4 +4,5 @@ a=int(input("Ievadi skaitli:"))
 nepara_skaitlis=[]
 for skaitlis in a:
     if skaitlis%2!=0:
+        nepara_skaitlis.append(skaitlis)
         print(nepara_skaitlis)
